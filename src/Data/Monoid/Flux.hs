@@ -2,13 +2,15 @@
 Module      : Data.Monoid.Flux
 Description : A Monoid for tracking changes
 Copyright   : (c) Chris Penner  2018
-License     : BSD-3
+License     : BSD-3-Clause
 Stability   : stable
 
+Flux is a monoid which detects the number of times a value changes across a sequence
+
 > getFlux $ foldMap flux ["a", "b", "b", "a"]
-2
+> 2
 > getFlux $ foldMap flux ["a", "b", "b", "a", "c", "c", "c"]
-3
+> 3
 -}
 module Data.Monoid.Flux
   ( Flux(..)
