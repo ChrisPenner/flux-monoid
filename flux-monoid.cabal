@@ -1,7 +1,7 @@
 name:                flux-monoid
 version:             0.1.0.0
 synopsis:            A monoid for tracking changes
-homepage:            https://github.com/githubuser/flux-monoid#readme
+homepage:            https://github.com/ChrisPenner/flux-monoid#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Chris Penner
