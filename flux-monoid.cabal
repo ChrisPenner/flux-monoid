@@ -1,5 +1,5 @@
 name:                flux-monoid
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            A monoid for tracking changes
 homepage:            https://github.com/ChrisPenner/flux-monoid#readme
 license:             BSD3
